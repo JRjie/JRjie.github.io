@@ -14,7 +14,7 @@
 <meta property="og:description" content="Linux">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-09-20T16:08:00.000Z">
-<meta property="article:modified_time" content="2022-09-20T16:10:19.196Z">
+<meta property="article:modified_time" content="2022-09-20T16:16:33.422Z">
 <meta property="article:author" content="Jie">
 <meta name="twitter:card" content="summary">
   
@@ -186,103 +186,83 @@
 </li>
 </ul>
 <h2 id="ROS2"><a href="#ROS2" class="headerlink" title="ROS2"></a>ROS2</h2><ul>
-<li><p>source &#x2F;opt&#x2F;ros&#x2F;galactic&#x2F;setup.bash</p>
-<ul>
+<li>source &#x2F;opt&#x2F;ros&#x2F;galactic&#x2F;setup.bash<ul>
 <li>&#x3D;&#x3D;获取启动文件&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>printenv | grep -i ROS</p>
-<ul>
+<li>printenv | grep -i ROS<ul>
 <li>&#x3D;&#x3D;检查环境变量&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 node list</p>
-<ul>
+<li>ros2 node list<ul>
 <li>&#x3D;&#x3D;查看节点列表&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 topic list</p>
-<ul>
+<li>ros2 topic list<ul>
 <li>&#x3D;&#x3D;查看话题列表&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 param list</p>
-<ul>
+<li>ros2 param list<ul>
 <li>&#x3D;&#x3D;查看参数列表&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 run <PackageName> <FileName></p>
-<ul>
+<li>ros2 run <PackageName> <FileName><ul>
 <li>&#x3D;&#x3D;运行包的可执行文件&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 node info <NodeName></p>
-<ul>
+<li>ros2 node info <NodeName><ul>
 <li>&#x3D;&#x3D;检查节点信息&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 topic info <TopicName></p>
-<ul>
+<li>ros2 topic info <TopicName><ul>
 <li>&#x3D;&#x3D;检查主题信息&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 topic echo <TopicName></p>
-<ul>
+<li>ros2 topic echo <TopicName><ul>
 <li>&#x3D;&#x3D;查看节点数据&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 interface show <TopicName></p>
-<ul>
+<li>ros2 interface show <TopicName><ul>
 <li>&#x3D;&#x3D;查看主题期望的数据结构&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 param get <NodeName> <ParamName></p>
-<ul>
+<li>ros2 param get <NodeName> <ParamName><ul>
 <li>&#x3D;&#x3D;查看参数的类型和当前值&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 param set <NodeName> <ParamName> <Value></p>
-<ul>
+<li>ros2 param set <NodeName> <ParamName> <Value><ul>
 <li>&#x3D;&#x3D;修改参数当前值&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 launch <LaunchName></p>
-<ul>
+<li>ros2 launch <LaunchName><ul>
 <li>&#x3D;&#x3D;打开启动文件&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 launch <PackageName> <LaunchName></p>
-<ul>
+<li>ros2 launch <PackageName> <LaunchName><ul>
 <li>&#x3D;&#x3D;打开包中的启动文件&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 bag record <TopicName></p>
-<ul>
+<li>ros2 bag record <TopicName><ul>
 <li>&#x3D;&#x3D;记录话题信息&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 bag record -o <FileName> <TopicName1> <TopicName2>…</p>
-<ul>
+<li>ros2 bag record -o <FileName> <TopicName1> <TopicName2>…<ul>
 <li>&#x3D;&#x3D;记录多个话题信息&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 topic hz <TopicName></p>
-<ul>
+<li>ros2 topic hz <TopicName><ul>
 <li>&#x3D;&#x3D;查看话题数据发布频率&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>colcon build</p>
-<ul>
+<li>colcon build<ul>
 <li>&#x3D;&#x3D;构建命名空间&amp;构建包&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>colcon build –package-select <PackageName></p>
-<ul>
+<li>colcon build –package-select <PackageName><ul>
 <li>&#x3D;&#x3D;构建某个包&#x3D;&#x3D;</li>
 </ul>
 </li>
-<li><p>ros2 pkg create –build-type ament_cmake <PackageName></p>
-<ul>
+<li>ros2 pkg create –build-type ament_cmake <PackageName><ul>
 <li>&#x3D;&#x3D;创建新包&#x3D;&#x3D;</li>
 </ul>
 </li>
