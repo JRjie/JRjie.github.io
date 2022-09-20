@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Command_Line | 生命的意义在于摆烂</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Linux">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Command_Line">
+<meta property="og:url" content="https://jrjie.github.io/2022/09/21/Command_Line/index.html">
+<meta property="og:site_name" content="生命的意义在于摆烂">
+<meta property="og:description" content="Linux">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-09-20T16:08:00.000Z">
+<meta property="article:modified_time" content="2022-09-20T16:10:19.196Z">
+<meta property="article:author" content="Jie">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="生命的意义在于摆烂" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">生命的意义在于摆烂</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://jrjie.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Command_Line" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/09/21/Command_Line/" class="article-date">
+  <time class="dt-published" datetime="2022-09-20T16:08:00.000Z" itemprop="datePublished">2022-09-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/command/">command</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Command_Line
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><span id="more"></span>
+
+<h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><ul>
+<li>cd &#x2F;<Path><ul>
+<li>&#x3D;&#x3D;打开文件夹&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>cd ..<ul>
+<li>&#x3D;&#x3D;返回上一级文件夹&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>ls<ul>
+<li>&#x3D;&#x3D;查看当前路径文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>rm -r &#x2F;<Path>&#x2F;<FolderName><ul>
+<li>&#x3D;&#x3D;删除文件夹&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>rm -f <FileName><ul>
+<li>&#x3D;&#x3D;删除文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>cp &#x2F;<Path>&#x2F;<FileName> &#x2F;<Path>&#x2F;<NewFileName><ul>
+<li>&#x3D;&#x3D;复制文件&amp;重命名&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>mkdir <FolderName><ul>
+<li>&#x3D;&#x3D;创建文件夹&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>touch <FileName><ul>
+<li>&#x3D;&#x3D;创建文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>tar -xvf <FileName><ul>
+<li>&#x3D;&#x3D;解压tar包&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>unzip <FileName> -d <FolderName><ul>
+<li>&#x3D;&#x3D;解压zip包&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>tar -cvf <ArchiveName> <FolderName><ul>
+<li>&#x3D;&#x3D;压缩tar包&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>zip -v <ArchiveName> <FolderName><ul>
+<li>&#x3D;&#x3D;压缩zip包&#x3D;&#x3D;</li>
+</ul>
+</li>
+</ul>
+<h3 id="软件操作"><a href="#软件操作" class="headerlink" title="软件操作"></a>软件操作</h3><ul>
+<li>apt-get update<ul>
+<li>&#x3D;&#x3D;更新软件源&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>apt-get upgrade<ul>
+<li>&#x3D;&#x3D;更新全部软件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>apt-get upgrade <PackageName><ul>
+<li>&#x3D;&#x3D;更新指定软件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>apt list –upgradable<ul>
+<li>&#x3D;&#x3D;可更新软件列表&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>apt list –installed<ul>
+<li>&#x3D;&#x3D;查看已安装的所有软件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>apt-get install <PackageName><ul>
+<li>&#x3D;&#x3D;安装软件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>apt-get remove <PackageName><ul>
+<li>&#x3D;&#x3D;删除软件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>apt-get –purge remove <PackageName><ul>
+<li>&#x3D;&#x3D;删除软件和配置文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+</ul>
+<h2 id="ROS2"><a href="#ROS2" class="headerlink" title="ROS2"></a>ROS2</h2><ul>
+<li><p>source &#x2F;opt&#x2F;ros&#x2F;galactic&#x2F;setup.bash</p>
+<ul>
+<li>&#x3D;&#x3D;获取启动文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>printenv | grep -i ROS</p>
+<ul>
+<li>&#x3D;&#x3D;检查环境变量&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 node list</p>
+<ul>
+<li>&#x3D;&#x3D;查看节点列表&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 topic list</p>
+<ul>
+<li>&#x3D;&#x3D;查看话题列表&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 param list</p>
+<ul>
+<li>&#x3D;&#x3D;查看参数列表&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 run <PackageName> <FileName></p>
+<ul>
+<li>&#x3D;&#x3D;运行包的可执行文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 node info <NodeName></p>
+<ul>
+<li>&#x3D;&#x3D;检查节点信息&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 topic info <TopicName></p>
+<ul>
+<li>&#x3D;&#x3D;检查主题信息&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 topic echo <TopicName></p>
+<ul>
+<li>&#x3D;&#x3D;查看节点数据&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 interface show <TopicName></p>
+<ul>
+<li>&#x3D;&#x3D;查看主题期望的数据结构&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 param get <NodeName> <ParamName></p>
+<ul>
+<li>&#x3D;&#x3D;查看参数的类型和当前值&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 param set <NodeName> <ParamName> <Value></p>
+<ul>
+<li>&#x3D;&#x3D;修改参数当前值&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 launch <LaunchName></p>
+<ul>
+<li>&#x3D;&#x3D;打开启动文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 launch <PackageName> <LaunchName></p>
+<ul>
+<li>&#x3D;&#x3D;打开包中的启动文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 bag record <TopicName></p>
+<ul>
+<li>&#x3D;&#x3D;记录话题信息&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 bag record -o <FileName> <TopicName1> <TopicName2>…</p>
+<ul>
+<li>&#x3D;&#x3D;记录多个话题信息&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 topic hz <TopicName></p>
+<ul>
+<li>&#x3D;&#x3D;查看话题数据发布频率&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>colcon build</p>
+<ul>
+<li>&#x3D;&#x3D;构建命名空间&amp;构建包&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>colcon build –package-select <PackageName></p>
+<ul>
+<li>&#x3D;&#x3D;构建某个包&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li><p>ros2 pkg create –build-type ament_cmake <PackageName></p>
+<ul>
+<li>&#x3D;&#x3D;创建新包&#x3D;&#x3D;</li>
+</ul>
+</li>
+</ul>
+<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><h2 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h2><ul>
+<li>git config –global user.name “<Name>“<ul>
+<li>&#x3D;&#x3D;配置全局用户名&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git config –global user.email “<Name>“<ul>
+<li>&#x3D;&#x3D;配置全局邮箱&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>ssh-keygen<ul>
+<li>&#x3D;&#x3D;获取公钥&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git init<ul>
+<li>&#x3D;&#x3D;初始化&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git clone <url><ul>
+<li>&#x3D;&#x3D;克隆仓库&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git add.<ul>
+<li>&#x3D;&#x3D;将全部文件放到暂存区&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git commit -m “<message>“<ul>
+<li>&#x3D;&#x3D;将全部文件合并&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git remote add origin <url><ul>
+<li>&#x3D;&#x3D;连接远程仓库&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git push origin master<ul>
+<li>&#x3D;&#x3D;上传合并的文件&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git push origin master -f<ul>
+<li>&#x3D;&#x3D;强制上传&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git reset HEAD<ul>
+<li>&#x3D;&#x3D;将暂存区的所有文件恢复到工作区&#x3D;&#x3D;</li>
+</ul>
+</li>
+<li>git remote rm origin<ul>
+<li>&#x3D;&#x3D;删除远程连接&#x3D;&#x3D;</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://jrjie.github.io/2022/09/21/Command_Line/" data-id="cl8ae9f1d0001dsugc7j05jp7" data-title="Command_Line" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2022/07/20/Camera_Calibration/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Camera_Calibration</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/command/">command</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/industrial-Camera/">industrial Camera</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/opencv-camera/" rel="tag">-opencv -camera</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/opencv-camera/" style="font-size: 10px;">-opencv -camera</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">July 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/09/21/Command_Line/">Command_Line</a>
+          </li>
+        
+          <li>
+            <a href="/2022/07/20/Camera_Calibration/">Camera_Calibration</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 Jie<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
